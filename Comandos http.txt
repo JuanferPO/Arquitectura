@@ -1,0 +1,6 @@
+*Options:
+curl -X OPTIONS http://localhost:8080/ -i
+*Trace:
+curl -X TRACE "Url" -i
+*Connect: 
+curl -x "IP del host (proxy)":"Puerto" -X CONNECT "Url"
